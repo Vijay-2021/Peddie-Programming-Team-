@@ -1,3 +1,2 @@
-# Peddie-Programming-Team-
-Hello! This is our github
-We will place each project under a seperate branch 
+#Book Website Project
+Nothing has been done for this right now, we should finish our shell by TBD
