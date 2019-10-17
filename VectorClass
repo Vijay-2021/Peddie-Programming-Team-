@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author sye-21
+ */
+public class VectorClass {
+    
+    
+    //creates a vector given starting and ending locations
+    public double[] basicVector(double startX, double startY, double endX, double endY){     
+        double [] vector = new double[2];
+        vector[0] = endX - startX;
+        vector[1] = endY - startY;
+        return vector;
+    }
+    
+    //creates a direction vector given the angle
+    public double[] createDirVector(double angle){
+        double [] vector = new double[2];
+        vector[0] = Math.cos(angle);
+        vector[1] = Math.sin(angle);
+        return vector;
+    }
+    
+    //creates a vector given its magnitude and angle
+    public double[] createVector(double magnitude, double angle){
+        double [] vector = new double[2];
+        vector[0] = magnitude * Math.cos(angle);
+        vector[1] = magnitude * Math.sin(angle);
+        return vector;
+    }
+}
