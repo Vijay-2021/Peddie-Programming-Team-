@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="halloffame.HallOfFame">
+   <children>
+   <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <Pane prefHeight="400.0" prefWidth="616.0" style="-fx-background-color: (255,200,20);">
+            <children>
+               <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="56.0" text="Home " textFill="#e81010">
+                  <font>
+                     <Font size="10.0" />
+                  </font>
+               </Button>
+               <Button fx:id="hello" layoutX="40.0" layoutY="133.0" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="82.0" prefWidth="120.0" text="About Peddie " />
+             
+               <Button layoutX="231.0" layoutY="126.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="120.0" text="Athletics News" />
+               <Button layoutX="428.0" layoutY="126.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="120.0" text="Atheletes " />
+               <TextField layoutX="100.0" layoutY="22.0" prefHeight="52.0" prefWidth="382.0" style="-fx-background-color: white; -fx-alignment: center;" text="Peddie Athletics Hall of Fame " />
+            </children>
+         </Pane>
+      </children>
+   </HBox>
+   </children>
+</AnchorPane>
