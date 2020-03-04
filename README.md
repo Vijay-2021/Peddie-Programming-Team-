@@ -1,3 +1,2 @@
 # Peddie-Programming-Team-
-Hello! This is our github
-We will place each project under a seperate branch 
+Hall of fame website using HTML and CSS
